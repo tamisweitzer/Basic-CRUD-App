@@ -1,0 +1,109 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.header {
+  padding: 3rem;
+}
+main {
+  padding: 3rem;
+  border: 1px solid #ddd;
+  min-height: calc(100vh - 215px);
+}
+main h2 {
+  margin-bottom: 2rem;
+}
+
+.footer {
+  width: 100%;
+  padding: 1rem;
+  background-color: #333;
+  color: #777;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer a {
+  color: #888;
+}
+.footer p {
+  padding: 1rem;
+}
+
+
+label {
+  display: inline-block;
+  width: 100px;
+  margin: 0.5rem 0.3rem 0.3rem 0;
+  text-align: right;
+  padding: 0.3rem;
+}
+
+input {
+   display: inline-block;
+   padding: 0.3rem;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+input[type="submit"] {
+  margin: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+/*  Index page */
+.main-options li {
+  margin-bottom: 1rem;
+  list-style-type: none;
+}
+.main-options strong {
+  display: inline-block;
+  width: 55px;
+  text-align: right;
+}
+
+/* Input in the read.php file */
+label[class="read-location"] {
+  text-align: left;
+  width: auto;
+}
+input[class="read-location"] {
+  display: inline;
+}
+
+input[class="read-location"] {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.muted {
+  color: #aaa;
+}
+
+
+.backToHome {
+  margin: 2rem 0;
+
+}
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 0.8rem;
+}
+td, th {
+  padding: 0.5rem 0.9rem;
+  border-bottom: 1px solid #aaa;
+}
+
+.echo_p {
+  padding: 1rem;
+  background: #lightyellow;
+}
